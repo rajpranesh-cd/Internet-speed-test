@@ -1,6 +1,6 @@
 import speedtest
 
-print("Internet Speed Test...")
+print("Internet Speed Test")
 def speedtester():
     st = speedtest.Speedtest()
 

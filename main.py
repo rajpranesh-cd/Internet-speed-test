@@ -1,10 +1,10 @@
 import speedtest
 print("Am a Speedster")
-print("Internet Speed Test!!!")
+print("Internet Speed Test!")
 def speedtester():
     st = speedtest.Speedtest()
 
-    print("Loading server list...")
+    print("Loading server list.")
     st.get_servers()
     print("Choosing best server...")
     best = st.get_best_server()

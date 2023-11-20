@@ -4,7 +4,7 @@ print("Internet Speed Test")
 def speedtester():
     st = speedtest.Speedtest()
 
-    print("Loading server list...\n")
+    print("Loading server list...")
     st.get_servers()
     print("Choosing best server...")
     best = st.get_best_server()
